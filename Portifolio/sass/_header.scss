@@ -1,0 +1,75 @@
+header {
+    padding-top: 5rem;
+    height: 20rem;
+    .container {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+
+        .logo {
+            display: flex;
+            align-items: start;
+
+
+            img {
+                width: 10%;
+            }
+
+            h1 {
+                font-family: Sora;
+                color: #0cc0df;
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: -0.4px;
+                text-transform: capitalize;
+            }
+        }
+
+        .navbar {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            nav {
+           margin: 0 auto;
+                ul {
+                    display: flex;
+                    font-size: 1.7rem;
+
+                    li {
+                        align-items: center;
+                        justify-content: center;
+
+                        a {
+                            font-family: Sora;
+                            margin-left: 2rem;
+                            color: #0cc0df;
+                        }
+                    }
+                }
+            }
+        }
+
+        .curriculo {
+            display: flex;
+            height: 56px;
+            padding: 16px 20px;
+            justify-content: end;
+            align-items: center;
+            gap: 8px;
+            border-radius: 4px;
+            background: #0cc0df;
+        }
+    }
+    @media(max-width: 900px) {
+        .container{
+            .navbar{
+               display: none;
+            }
+        }
+    }
+}
+
